@@ -1,0 +1,128 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a{
+  color: #333333;
+}
+.warp{
+  width: 100%;
+  height: 100%;
+}
+.logo{
+  width: 35%;
+  padding-left: 65%;
+  height: 50px;
+  text-align: center;
+}
+.logo ul{
+  float: left;
+  font-size: 12px;
+  line-height: 50px;
+}
+.logo ul li{
+  float: left;
+  width: 50px;
+}
+.logo ul li ol {
+  float: left;
+  display: none;
+  border: 1px solid gainsboro;
+  line-height: 25px;
+  background: white;
+  position: absolute;
+  width: 75px;
+}
+.logo ul li ol li{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.logo span{
+  display: inline-block;
+  line-height: 20px;
+  width: 70px;
+  margin-top: 15px;
+  color: white;
+  float: right;
+}
+.logo span a{
+  display: inherit;
+  color: white;
+  background: dodgerblue;
+  text-decoration: none;
+}
+.tp{
+  width: 100%;
+  height: 130px;
+  margin-top: 50px;
+  text-align: center;
+}
+.tp img{
+  width: 20%;
+}
+.ipt{
+  width: 100%;
+  height: 50px;
+}
+.ipt input{
+  margin-left: 25%;
+  height: 40px;
+  width: 44%;
+  float: left;
+  padding-left: 1%;
+  border: 1px solid darkgray;
+  background:white url("../images/2.png") no-repeat right;
+}
+.ipt button{
+  width: 5%;
+  height: 42px;
+  border: none;
+  float: left;
+  background: dodgerblue;
+  color: white;
+}
+.ewm{
+  width: 100%;
+  margin-top: 200px;
+  height: 100px;
+  text-align: center;
+  font-weight: bold;
+}
+.ewm img{
+  width: 5%;
+
+}
+.footer{
+  width: 100%;
+  height: 40px;
+  line-height: 20px;
+  font-size: 12px;
+  text-align: center;
+  color: grey;
+
+}
+.footer span{
+  padding-left: 20px;
+}
+.footer img{
+  height: 15px;
+  vertical-align: middle;
+}
+.footer a{
+  color: grey;
+}
+
+
+
+
+
+
+
+
+
+
